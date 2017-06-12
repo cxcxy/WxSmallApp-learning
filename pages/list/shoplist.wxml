@@ -1,0 +1,63 @@
+<!--<span style="font-size:24px;">-->
+<view class="view-box">
+
+  <view class="view-list-item" wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i" >
+   <navigator url="../list/shoplist">
+   <image src="../../Icon/test.png"></image>
+   <view class="shoptitle"><text>瓜子 100g</text></view>
+   <view class="shopdes"><text>￥{{i}}</text></view>
+   </navigator>
+  </view>
+  <view class="view-list-item"> 
+    <navigator url="../list/shoplist">
+    <image src="../../Icon/test.png"></image>
+    <view class="shoptitle"><text>商品标题</text></view>
+    <view class="shopdes"><text>商品描述</text></view>
+    </navigator>
+   </view>
+  <view class="view-list-item">     
+    <navigator url="../list/shoplist">
+    <image src="../../Icon/test.png"></image>
+    <view class="shoptitle"><text>商品标题</text></view>
+    <view class="shopdes"><text>商品描述</text></view>
+    </navigator>
+   </view>
+  <view class="view-list-item">     
+    <navigator url="../list/shoplist">
+    <image src="../../Icon/test.png"></image>
+    <view class="shoptitle"><text>商品标题</text></view>
+    <view class="shopdes"><text>商品描述</text></view>
+    </navigator>
+   </view>
+   <view class="view-list-item">     
+    <navigator url="../list/shoplist">
+    <image src="../../Icon/test.png"></image>
+    <view class="shoptitle"><text>商品标题</text></view>
+    <view class="shopdes"><text>商品描述</text></view>
+    </navigator>
+   </view>
+   <view class="view-list-item">     
+    <navigator url="../list/shoplist">
+    <image src="../../Icon/test.png"></image>
+    <view class="shoptitle"><text>商品标题</text></view>
+    <view class="shopdes"><text>商品描述</text></view>
+    </navigator>
+   </view>
+   <view class="view-list-item">     
+    <navigator url="../list/shoplist">
+    <image src="../../Icon/test.png"></image>
+    <view class="shoptitle"><text>商品标题</text></view>
+    <view class="shopdes"><text>商品描述</text></view>
+    </navigator>
+   </view>
+   <view class="view-list-item">     
+    <navigator url="../list/shoplist">
+    <image src="../../Icon/test.png"></image>
+    <view class="shoptitle"><text>商品标题</text></view>
+    <view class="shopdes"><text>商品描述</text></view>
+    </navigator>
+   </view>
+   
+
+</view>
+<!--</span>-->

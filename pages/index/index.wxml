@@ -1,0 +1,20 @@
+<!--index.wxml-->
+ <view class="select-title">
+        <!--<view class="select-top">-->
+            <!--<view class="select-top-small">-->
+                <navigator url="../list/shoplist?title=我是navigate">
+                <text>精选主题</text>
+                    <!--<image src="/image/s1.png"></image>-->
+                </navigator>
+            <!--</view>-->
+            <!--<view class="select-top-small">
+                <navigator url="list/list">
+                    <image src="/image/s2.png"></image>
+                </navigator>
+            </view>
+        </view>
+        <view class="select-bottom">
+            <navigator url="list/list">
+                <image src="/image/s3.png"></image>
+            </navigator>-->
+        </view>
