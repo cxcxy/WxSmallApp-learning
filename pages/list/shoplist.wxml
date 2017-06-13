@@ -1,63 +1,23 @@
 <!--<span style="font-size:24px;">-->
 <view class="view-box">
-
-  <view class="view-list-item" wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i" >
-   <navigator url="../list/shoplist">
-   <image src="../../Icon/test.png"></image>
-   <view class="shoptitle"><text>瓜子 100g</text></view>
-   <view class="shopdes"><text>￥{{i}}</text></view>
-   </navigator>
-  </view>
-  <view class="view-list-item"> 
-    <navigator url="../list/shoplist">
-    <image src="../../Icon/test.png"></image>
-    <view class="shoptitle"><text>商品标题</text></view>
-    <view class="shopdes"><text>商品描述</text></view>
-    </navigator>
-   </view>
-  <view class="view-list-item">     
-    <navigator url="../list/shoplist">
-    <image src="../../Icon/test.png"></image>
-    <view class="shoptitle"><text>商品标题</text></view>
-    <view class="shopdes"><text>商品描述</text></view>
-    </navigator>
-   </view>
-  <view class="view-list-item">     
-    <navigator url="../list/shoplist">
-    <image src="../../Icon/test.png"></image>
-    <view class="shoptitle"><text>商品标题</text></view>
-    <view class="shopdes"><text>商品描述</text></view>
-    </navigator>
-   </view>
-   <view class="view-list-item">     
-    <navigator url="../list/shoplist">
-    <image src="../../Icon/test.png"></image>
-    <view class="shoptitle"><text>商品标题</text></view>
-    <view class="shopdes"><text>商品描述</text></view>
-    </navigator>
-   </view>
-   <view class="view-list-item">     
-    <navigator url="../list/shoplist">
-    <image src="../../Icon/test.png"></image>
-    <view class="shoptitle"><text>商品标题</text></view>
-    <view class="shopdes"><text>商品描述</text></view>
-    </navigator>
-   </view>
-   <view class="view-list-item">     
-    <navigator url="../list/shoplist">
-    <image src="../../Icon/test.png"></image>
-    <view class="shoptitle"><text>商品标题</text></view>
-    <view class="shopdes"><text>商品描述</text></view>
-    </navigator>
-   </view>
-   <view class="view-list-item">     
-    <navigator url="../list/shoplist">
-    <image src="../../Icon/test.png"></image>
-    <view class="shoptitle"><text>商品标题</text></view>
-    <view class="shopdes"><text>商品描述</text></view>
-    </navigator>
-   </view>
-   
+<!--<view class="view-list-item">
+       <block wx:for="{{navLeftItems}}">
+           <image src="{{item.productImg}}"></image>
+           <view class="shopdetail">
+                <view class="shoptitle"><text>{{item.productTitle}}</text></view>
+                 <view class="shopdes"><text>￥{{item.sellPrice}}</text></view>
+           </view>
+        </block>
+</view>-->
+    <view class="view-list-item">
+        <view class="view-list-box" wx:for-items="{{navLeftItems}}" wx:key="{{index}}" data-id="{{item.productId}}">
+           <image src="{{item.productImg}}"></image>
+           <view class="shopdetail">
+                <view class="shoptitle"><text>{{item.productTitle}}</text></view>
+                 <view class="shopprice"><text>￥{{item.sellPrice}}</text></view>
+           </view>
+        </view>
+    </view>
 
 </view>
 <!--</span>-->
